@@ -459,7 +459,7 @@ header * {
 .see-code-btn.disabled {
   pointer-events: none;
   cursor: default;
-  opacity: 50%;
+  opacity: 0.5;
 }
 .project-technology {
   display: inline-block;
