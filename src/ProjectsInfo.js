@@ -71,7 +71,7 @@ export const projectsInfo = [
     name: 'Drum machine',
     technologies: ['React', 'Javascript', 'HTML & CSS'],
     about:
-      'Batería digital que genera distintos sonidos dependiendo la tecla y batería seleccionada.\n Creada durante el curso de Front End Development Libraries de freeCodeCamp',
+      'Batería digital que genera distintos sonidos dependiendo la tecla y batería seleccionada.\n Creada durante el curso de Front End Development Libraries de freeCodeCamp.',
     features: [
       'Reproducir sonidos al clickear una tecla con el mouse o con la correspondiente tecla del teclado',
       'Dos tipos de baterías que ofrecen distintos sonidos para las teclas',
@@ -88,7 +88,7 @@ export const projectsInfo = [
     name: 'Javascript calculator',
     technologies: ['React', 'Javascript', 'HTML & CSS'],
     about:
-      'Calculadora científica digital\n Creada durante el curso de Front End Development Libraries de freeCodeCamp',
+      'Calculadora científica digital\n Creada durante el curso de Front End Development Libraries de freeCodeCamp.',
     features: [
       'Calcular sumas, restas, multiplicaciones y diviciones con numeros reales y mostrar los resultados en el monitor',
       'Calcular operaciones combinadas',
@@ -104,7 +104,7 @@ export const projectsInfo = [
     name: 'Portfolio',
     technologies: ['React', 'Javascript', 'HTML & CSS'],
     about:
-      'Portafolio digital donde presentarme, dar mi contacto y mostrar mis mejores proyectos',
+      'Portafolio digital donde presentarme, dar mi contacto y mostrar mis mejores proyectos.',
     features: [],
     gif: 'https://media.giphy.com/media/a4J6IVaKeUYM8S3ZnX/giphy.gif',
     backgroundColor: 'black',
