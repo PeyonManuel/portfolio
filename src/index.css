@@ -379,7 +379,11 @@ header * {
   border-radius: 0.2rem;
   position: relative;
 }
-
+@media (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 150dpi) {
+  .project-card {
+    min-height: auto;
+  }
+}
 .project-card-gif {
   height: 100%;
   display: flex;
