@@ -57,6 +57,7 @@ const ProjectCard = ({ selectedProject, setSelectedProject }) => {
           style={{
             color: projectsInfo[selectedProject].color,
             zIndex: 1,
+            boxShadow: '0 0 5px #000',
           }}
           onClick={() => {
             document
