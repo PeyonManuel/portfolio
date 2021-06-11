@@ -372,7 +372,7 @@ header * {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 75vw;
+  width: 85vw;
   height: 30vw;
   min-height: 50rem;
   max-width: 120rem;
@@ -380,11 +380,7 @@ header * {
   border-radius: 0.2rem;
   position: relative;
 }
-@media (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 150dpi) {
-  .project-card {
-    min-height: auto;
-  }
-}
+
 .project-card-gif {
   height: 100%;
   display: flex;
@@ -397,17 +393,18 @@ header * {
 @media (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 150dpi) {
   .project-card {
     flex-direction: column;
-    height: 95vh;
+    height: 85vh;
     width: 90vw;
+    min-height: auto;
   }
-  .project-card-gif {
-    width: 100%;
-    height: auto;
-  }
-  .project-card-gif img {
-    width: 100%;
-    height: auto;
-  }
+}
+.project-card-gif {
+  width: 100%;
+  height: auto;
+}
+.project-card-gif img {
+  width: 100%;
+  height: auto;
 }
 @media (max-width: 900px) and (-webkit-max-device-pixel-ratio: 1) {
   .project-card {
