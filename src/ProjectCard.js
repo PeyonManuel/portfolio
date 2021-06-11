@@ -86,7 +86,7 @@ const ProjectCard = ({ selectedProject, setSelectedProject }) => {
         >
           <i
             className='fas fa-times fa-lg'
-            style={{ boxShadow: '0 0 5px #000' }}
+            style={{ textShadow: '2px 2px 5px black' }}
           ></i>
         </button>
         <div className='project-card-gif'>
