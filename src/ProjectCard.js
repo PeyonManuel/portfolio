@@ -57,7 +57,6 @@ const ProjectCard = ({ selectedProject, setSelectedProject }) => {
           style={{
             color: projectsInfo[selectedProject].color,
             zIndex: 1,
-            boxShadow: '0 0 5px #000',
           }}
           onClick={() => {
             document
@@ -85,7 +84,10 @@ const ProjectCard = ({ selectedProject, setSelectedProject }) => {
             }, 500);
           }}
         >
-          <i className='fas fa-times fa-lg'></i>
+          <i
+            className='fas fa-times fa-lg'
+            style={{ boxShadow: '0 0 5px #000' }}
+          ></i>
         </button>
         <div className='project-card-gif'>
           <img src={projectsInfo[selectedProject].gif} alt='Gif del proyecto' />{' '}
