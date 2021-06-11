@@ -83,14 +83,17 @@ header::before {
   right: 0;
   top: 0;
   display: block;
-  background-image: url('/src/Background.png');
+  background-image: url(https://i.imgur.com/mUXcOFd.jpeg);
   background-color: black;
-  filter: brightness(50%);
+  filter: brightness(0%);
   background-size: cover;
   transform-origin: center center 0;
   transform: translateZ(-0.1rem) scale(2);
   z-index: -1;
   min-height: 100vh;
+}
+header.loaded::before {
+  filter: brightness(50%);
 }
 
 header * {

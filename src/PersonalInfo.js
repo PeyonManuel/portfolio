@@ -1,22 +1,32 @@
 import React, { useEffect } from 'react';
 
 const PersonalInfo = () => {
-  useEffect(() => {
-    document.querySelector('.personal-info').classList.add('fade-right');
-    document.querySelector('header p').classList.add('fade-left');
-    document.querySelector('header h1').classList.add('fade-right');
-    setTimeout(() => {
-      document.querySelector('.projects-dive-in-line').classList.add('fade-up');
-      setTimeout(() => {
-        document
-          .querySelector('.projects-dive-in-line button')
-          .classList.add('fade-down');
-      }, 900);
-    }, 1000);
-  }, []);
   return (
     <>
       <div className='personal-info'>
+        <img
+          hidden
+          src='https://i.imgur.com/mUXcOFd.jpeg'
+          alt='.'
+          onLoad={() => {
+            document.querySelector('header').classList.add('loaded');
+            document
+              .querySelector('.personal-info')
+              .classList.add('fade-right');
+            document.querySelector('header p').classList.add('fade-left');
+            document.querySelector('header h1').classList.add('fade-right');
+            setTimeout(() => {
+              document
+                .querySelector('.projects-dive-in-line')
+                .classList.add('fade-up');
+              setTimeout(() => {
+                document
+                  .querySelector('.projects-dive-in-line button')
+                  .classList.add('fade-down');
+              }, 900);
+            }, 1000);
+          }}
+        />
         <h1>Manuel Peyon</h1>
         <p>Web developer</p>
         <div id='social-media-links' className='row'>
