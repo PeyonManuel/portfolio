@@ -110,6 +110,6 @@ export const projectsInfo = [
     backgroundColor: 'black',
     color: 'white',
     demo: 'none',
-    code: 'https://codepen.io/Umim/pen/oNxKyqw',
+    code: 'https://github.com/PeyonManuel/portfolio',
   },
 ];

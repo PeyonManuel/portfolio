@@ -126,6 +126,7 @@ header * {
   transition: 0.5s;
   padding: 1.1rem;
   opacity: 0;
+  user-select: none;
 }
 .projects-dive-in-line button:hover {
   background-color: white;
