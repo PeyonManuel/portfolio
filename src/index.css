@@ -427,6 +427,13 @@ header * {
   height: 100%;
   overflow-y: hidden;
   padding-bottom: 0.1rem;
+  max-width: 40%;
+}
+@media (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 150dpi) {
+  .project-card-details-container {
+    max-width: 100%;
+    max-height: 75%;
+  }
 }
 .project-card-details {
   padding: 2rem 2rem 6rem;
