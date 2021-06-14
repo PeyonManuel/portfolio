@@ -376,8 +376,7 @@ header * {
   align-items: center;
   justify-content: space-between;
   width: 85vw;
-  height: 30vw;
-  min-height: 50rem;
+  height: 60vh;
   max-width: 120rem;
   box-shadow: 0 0 5px #000;
   border-radius: 0.2rem;
@@ -393,10 +392,10 @@ header * {
 .project-card-gif img {
   height: 100%;
 }
-@media (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 150dpi) {
+@media (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 150dpi) and (orientation: portrait) {
   .project-card {
     flex-direction: column;
-    height: 85vh;
+    height: 90vh;
     width: 90vw;
     min-height: auto;
   }
@@ -424,18 +423,37 @@ header * {
     width: 100%;
     height: auto;
   }
+  .project-card-details-container {
+    max-width: 100% !important;
+  }
 }
 .project-card-details-container {
   position: relative;
   height: 100%;
   overflow-y: hidden;
   padding-bottom: 0.1rem;
-  max-width: 40%;
+  max-width: 50%;
 }
-@media (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 150dpi) {
+@media (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 150dpi) and (orientation: portrait) {
   .project-card-details-container {
     max-width: 100%;
+    width: 100%;
     max-height: 75%;
+  }
+}
+@media (orientation: landscape) {
+  .project-card-details-container {
+    max-width: initial;
+  }
+  @media (max-height: 400px) {
+    .project-card {
+      min-height: initial;
+      height: 90vh;
+      width: 90vw;
+    }
+    .project-card-details-container {
+      height: 100%;
+    }
   }
 }
 .project-card-details {
