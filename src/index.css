@@ -186,7 +186,7 @@ header * {
   border-top: 0.1rem white solid;
 }
 #mercado-libre .project-name {
-  background-color: #faf95e;
+  background-color: #9ed9d5;
   color: black;
 }
 #moviezz .project-name {
@@ -317,10 +317,10 @@ header * {
   transform: scale(101%);
 }
 #mercado-libre .img-container div {
-  background: url('https://i.imgur.com/9jq4SZc.gif') no-repeat center;
+  background: url('https://i.imgur.com/hO6u1RO.gif') no-repeat center;
 }
 #mercado-libre:hover .img-container div {
-  background: url('https://media.giphy.com/media/rXUr3PnVp9VcUNDlqF/giphy.gif')
+  background: url('https://media.giphy.com/media/6Jp7gPuCJ4MdAAaRub/giphy.gif')
     no-repeat center;
 }
 #moviezz .img-container div {

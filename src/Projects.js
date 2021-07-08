@@ -34,7 +34,7 @@ const Projects = () => {
             <div />
           </div>
           <div className='project-name'>
-            <p>Mercado libre clone</p>
+            <p>Libre mercado</p>
           </div>
         </div>
         <div

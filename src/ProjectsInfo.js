@@ -1,6 +1,6 @@
 export const projectsInfo = [
   {
-    name: 'Mercado libre clone',
+    name: 'Libre mercado',
     technologies: [
       'React',
       'Node.js',
@@ -27,14 +27,18 @@ export const projectsInfo = [
       'Categorías para los productos',
       'Búsqueda con filtros',
     ],
-    gif: 'https://media.giphy.com/media/rXUr3PnVp9VcUNDlqF/giphy.gif',
-    backgroundColor: '#faf95e',
+    gif: 'https://media.giphy.com/media/6Jp7gPuCJ4MdAAaRub/giphy.gif',
+    backgroundColor: '#9ED9D5',
     color: 'black',
     demo: 'https://mercadolibreclone.herokuapp.com/',
     code: 'https://github.com/PeyonManuel/mercado-libre-clone',
   },
   {
+<<<<<<< Updated upstream
     name: 'Movie project',
+=======
+    name: 'Moviezz',
+>>>>>>> Stashed changes
     technologies: ['React', 'Javascript', 'HTML & CSS'],
     about:
       'Directorio de películas utilizando The movie database API.\n El objetivo fue crear un directorio utilizando las funcionalidades más importantes de la API y hacer un diseño propio utilizando inspiraciones en otros directorios de películas populares.',
