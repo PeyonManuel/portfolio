@@ -34,11 +34,7 @@ export const projectsInfo = [
     code: 'https://github.com/PeyonManuel/mercado-libre-clone',
   },
   {
-<<<<<<< Updated upstream
-    name: 'Movie project',
-=======
     name: 'Moviezz',
->>>>>>> Stashed changes
     technologies: ['React', 'Javascript', 'HTML & CSS'],
     about:
       'Directorio de películas utilizando The movie database API.\n El objetivo fue crear un directorio utilizando las funcionalidades más importantes de la API y hacer un diseño propio utilizando inspiraciones en otros directorios de películas populares.',
