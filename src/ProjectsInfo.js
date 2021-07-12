@@ -30,7 +30,7 @@ export const projectsInfo = [
     gif: 'https://media.giphy.com/media/6Jp7gPuCJ4MdAAaRub/giphy.gif',
     backgroundColor: '#9ED9D5',
     color: 'black',
-    demo: 'https://mercadolibreclone.herokuapp.com/',
+    demo: 'https://libre-mercado1.herokuapp.com/',
     code: 'https://github.com/PeyonManuel/mercado-libre-clone',
   },
   {
@@ -52,6 +52,25 @@ export const projectsInfo = [
     code: 'https://github.com/PeyonManuel/movie-project',
   },
   {
+    name: "Jack's Lounge",
+    technologies: ['React', 'Javascript', 'HTML & CSS'],
+    about:
+      "Product landing page para Jack's Lounge que es un restobar con cafeteria.",
+    features: [
+      'Imagen de presentación con efecto parallax',
+      'Descripción del lugar con imagenes',
+      'Animaciones para la sección About',
+      'Desplamiento entre diferentes secciones',
+      'Exhibición de carta de cafeteria',
+      'Exhibición de carta de restaurant',
+    ],
+    gif: 'https://media.giphy.com/media/xnWejodKxeAGL0iK84/giphy.gif',
+    backgroundColor: '#d77815',
+    color: 'white',
+    demo: 'https://recipe-finder-mp.netlify.app/',
+    code: 'https://github.com/PeyonManuel/recipe-finder',
+  },
+  {
     name: 'Recipe finder',
     technologies: ['React', 'Javascript', 'HTML & CSS'],
     about:
@@ -61,11 +80,11 @@ export const projectsInfo = [
       'Listado de recetas según los ingredientes ingresados',
       'Las recetas especifican que ingredientes utilizan y cuales serian aún necesarios',
     ],
-    gif: 'https://media.giphy.com/media/KWkoAQMaSLcIWRNf13/giphy.gif',
+    gif: 'https://media.giphy.com/media/xnWejodKxeAGL0iK84/giphy.gif',
     backgroundColor: '#74cd4d',
     color: 'white',
-    demo: 'https://recipe-finder-mp.netlify.app/',
-    code: 'https://github.com/PeyonManuel/recipe-finder',
+    demo: 'https://jackslounge.netlify.app/',
+    code: 'https://github.com/PeyonManuel/Jack-s-longue-landing-page',
   },
   {
     name: 'Drum machine',

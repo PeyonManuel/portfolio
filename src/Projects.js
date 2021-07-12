@@ -53,6 +53,20 @@ const Projects = () => {
         </div>
         <div
           className='project'
+          id='jacks-lounge'
+          onClick={() => {
+            setSelectedProject(2);
+          }}
+        >
+          <div className='img-container'>
+            <div />
+          </div>
+          <div className='project-name'>
+            <p>Jack's Lounge</p>
+          </div>
+        </div>
+        <div
+          className='project'
           id='recipe-finder'
           onClick={() => {
             setSelectedProject(2);
@@ -65,7 +79,6 @@ const Projects = () => {
             <p>Recipe finder</p>
           </div>
         </div>
-
         <div
           className='project'
           id='drum-machine'

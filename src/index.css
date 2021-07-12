@@ -192,6 +192,9 @@ header * {
 #moviezz .project-name {
   background-color: #14393f;
 }
+#jacks-lounge .project-name {
+  background-color: #d77815;
+}
 #recipe-finder .project-name {
   background-color: #74cd4d;
 }
@@ -328,6 +331,13 @@ header * {
 }
 #moviezz:hover .img-container div {
   background: url('https://media.giphy.com/media/lYTUU3yMtVZYVvC3ag/giphy.gif')
+    no-repeat center;
+}
+#jacks-lounge .img-container div {
+  background: url('https://i.imgur.com/ZejmxsW.gif') no-repeat center;
+}
+#jacks-lounge:hover .img-container div {
+  background: url('https://media.giphy.com/media/xnWejodKxeAGL0iK84/giphy.gif')
     no-repeat center;
 }
 #recipe-finder .img-container div {
