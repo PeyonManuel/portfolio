@@ -80,7 +80,7 @@ export const projectsInfo = [
       'Listado de recetas según los ingredientes ingresados',
       'Las recetas especifican que ingredientes utilizan y cuales serian aún necesarios',
     ],
-    gif: 'https://media.giphy.com/media/xnWejodKxeAGL0iK84/giphy.gif',
+    gif: 'https://media.giphy.com/media/KWkoAQMaSLcIWRNf13/giphy.gif',
     backgroundColor: '#74cd4d',
     color: 'white',
     demo: 'https://recipe-finder-mp.netlify.app/',
