@@ -69,7 +69,7 @@ const Projects = () => {
           className='project'
           id='recipe-finder'
           onClick={() => {
-            setSelectedProject(2);
+            setSelectedProject(3);
           }}
         >
           <div className='img-container'>
@@ -83,7 +83,7 @@ const Projects = () => {
           className='project'
           id='drum-machine'
           onClick={() => {
-            setSelectedProject(3);
+            setSelectedProject(4);
           }}
         >
           <div className='img-container'>
@@ -97,7 +97,7 @@ const Projects = () => {
           className='project'
           id='javascript-calculator'
           onClick={() => {
-            setSelectedProject(4);
+            setSelectedProject(5);
           }}
         >
           <div className='img-container'>
@@ -111,7 +111,7 @@ const Projects = () => {
           className='project'
           id='portfolio'
           onClick={() => {
-            setSelectedProject(5);
+            setSelectedProject(6);
           }}
         >
           <div className='img-container'>
