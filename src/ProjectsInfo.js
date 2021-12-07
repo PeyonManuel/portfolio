@@ -116,8 +116,8 @@ export const projectsInfo = [
     gif: 'https://media.giphy.com/media/RnoSYn52Sius9mhdrj/giphy.gif',
     backgroundColor: '#ecb726',
     color: 'black',
-    demo: 'https://codepen.io/Umim/full/oNxKyqw',
-    code: 'https://codepen.io/Umim/pen/oNxKyqw',
+    demo: 'https://codepen.io/Umim/full/ZEWPgbg',
+    code: 'https://codepen.io/Umim/pen/ZEWPgbg',
   },
   {
     name: 'Portfolio',
