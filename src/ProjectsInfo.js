@@ -67,8 +67,8 @@ export const projectsInfo = [
     gif: 'https://media.giphy.com/media/xnWejodKxeAGL0iK84/giphy.gif',
     backgroundColor: '#d77815',
     color: 'white',
-    demo: 'https://recipe-finder-mp.netlify.app/',
-    code: 'https://github.com/PeyonManuel/recipe-finder',
+    demo: 'https://jackslounge.netlify.app/',
+    code: 'https://github.com/PeyonManuel/Jack-s-longue-landing-page',
   },
   {
     name: 'Recipe finder',
@@ -83,8 +83,8 @@ export const projectsInfo = [
     gif: 'https://media.giphy.com/media/xnWejodKxeAGL0iK84/giphy.gif',
     backgroundColor: '#74cd4d',
     color: 'white',
-    demo: 'https://jackslounge.netlify.app/',
-    code: 'https://github.com/PeyonManuel/Jack-s-longue-landing-page',
+    demo: 'https://recipe-finder-mp.netlify.app/',
+    code: 'https://github.com/PeyonManuel/recipe-finder',
   },
   {
     name: 'Drum machine',
