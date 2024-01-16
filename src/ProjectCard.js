@@ -5,42 +5,8 @@ const ProjectCard = ({ selectedProject, setSelectedProject }) => {
   const cardRef = useRef();
 
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      const { current: wrap } = cardRef;
-      if (wrap && !wrap.contains(event.target)) {
-        document
-          .querySelector('.project-card')
-          .classList.remove('fade-up-less');
-        document
-          .querySelector('.project-card')
-          .classList.add('fade-down-dissapear');
-        document.querySelector('.projects-container').scrollIntoView();
-        setTimeout(() => {
-          document
-            .querySelector('.project-card')
-            .classList.remove('fade-down-dissapear');
-          document
-            .querySelector('.projects-dive-in-line')
-            .classList.add('fade-up');
-          document.body.style.overflowY = 'scroll';
-          document.body.style.overflowX = 'hidden';
-          document.querySelector('header h1').classList.add('fade-right');
-          document.querySelector('header p').classList.add('fade-left');
-          document.querySelector('.personal-info').classList.add('fade-right');
-          setSelectedProject(-1);
-        }, 500);
-      }
-    };
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, [cardRef, setSelectedProject]);
-
-  useEffect(() => {
     if (selectedProject !== -1) {
-      document.body.scrollTop = 0;
-      document.body.style.overflow = 'hidden';
+      document.body.scrollTo(0, 0);
       document
         .querySelector('.projects-dive-in-line')
         .classList.remove('fade-up');

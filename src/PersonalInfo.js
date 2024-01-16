@@ -48,7 +48,7 @@ const PersonalInfo = () => {
             <i className='fab fa-codepen'></i>
           </a>
           <a
-            href='https://drive.google.com/file/d/1KsFz3kPD7hh0xgQoSmfvjjzkezcqwF6N/view?usp=sharing'
+            href='https://www.linkedin.com/in/manuel-peyon/overlay/1705396252889/single-media-viewer/?profileId=ACoAADLLZ9EBERSCgrQIarovWr6ru07nIxPmIdk'
             target='_blank'
             rel='noreferrer'
           >

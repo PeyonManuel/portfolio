@@ -404,14 +404,12 @@ header * {
 }
 @media (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 150dpi) and (orientation: portrait) {
   .project-card {
-    flex-direction: column;
     height: 90vh;
     width: 90vw;
     min-height: auto;
   }
   .project-card-gif {
     width: 100%;
-    height: auto;
   }
   .project-card-gif img {
     width: 100%;
@@ -427,7 +425,6 @@ header * {
   }
   .project-card-gif {
     width: 100%;
-    height: auto;
   }
   .project-card-gif img {
     width: 100%;
@@ -448,7 +445,6 @@ header * {
   .project-card-details-container {
     max-width: 100%;
     width: 100%;
-    max-height: 75%;
   }
 }
 @media (orientation: landscape) {
